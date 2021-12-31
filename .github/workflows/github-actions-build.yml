@@ -15,7 +15,8 @@ jobs:
         env:
           SITE_PASSWORD: ${{ secrets.site_password }}
         run: |
-          ls ${{ github.workspace }}
+          ls -alh ${{ github.workspace }}
           cd ${{ github.workspace }}
           ./build.sh
+          ls -alh ${{ github.workspace }}
       - run: echo "🍏 This job's status is ${{ job.status }}."
