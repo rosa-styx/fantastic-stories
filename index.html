@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+
+    <title>Fantastic stories</title>
+    <style>
+        body {
+            background-image: url('img/wolf.jpeg');
+        }
+
+        h1 {
+            color: turquoise;
+            font-size: 2rem;
+        }
+
+        li {
+            color: turquoise;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Règles d'utilisation
+    </h1>
+    <ul>
+        <li>Ne pas appuyer sur tous les boutons </li>
+        <li>suivre les Règles </li>
+        <li>Jéspère que les histoires seront rigolotes</li>
+    </ul>
+    <!--
+    <img src="img/wolf2.jpeg" alt="" />
+    -->
+    <div id="tsparticles"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles@1.37.5/tsparticles.min.js"></script>
+    <script>
+      tsParticles.load("tsparticles", {
+   "particles":{
+      "color":{
+         "value":"#fff"
+      },
+      "move":{
+         "direction":"bottom",
+         "enable":true,
+         "outModes":"out",
+         "speed":2
+      },
+      "number":{
+         "density":{
+            "enable":true,
+            "area":800
+         },
+         "value":400
+      },
+      "opacity":{
+         "value":0.7
+      },
+      "shape":{
+         "type":"circle"
+      },
+      "size":{
+         "value":10
+      },
+      "wobble":{
+         "enable":true,
+         "distance":10,
+         "speed":10
+      },
+      "zIndex":{
+         "value":{
+            "min":0,
+            "max":100
+         }
+      }
+   }
+});
+    </script>
+</body>
+
+</html>

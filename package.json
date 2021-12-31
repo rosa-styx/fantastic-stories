@@ -1,0 +1,19 @@
+{
+  "name": "fanstastic-stories",
+  "version": "0.0.1",
+  "description": "Fantastic Stories",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rosa-styx/fantastic-stories.git"
+  },
+  "author": "rosa-styx",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rosa-styx/fantastic-stories/issues"
+  },
+  "homepage": "https://github.com/rosa-styx/fantastic-stories#readme"
+}
