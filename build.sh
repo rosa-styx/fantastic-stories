@@ -16,7 +16,7 @@ fi
 set -eEuo pipefail
 
 script_dir="$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd)"
-build_dir="${script_dir}/dist"
+build_dir="${script_dir}/docs"
 
 mkdir -p "${build_dir}"
 cp -r img "${build_dir}"
